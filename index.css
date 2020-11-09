@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+background-image: url(background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 2%;
+  width: 65%;
+  margin: auto;
+  margin-top: 1.5%;
+  padding: 100px;
+}
+
+header{
+  text-align: center;
+  color: rgb(0, 230, 0);
+}
+
+.logo{
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+h1, h2{
+  margin: auto;
+}
+.navigator{
+  text-align: center;
+  background-color: rgb(0, 230, 0);
+  padding: 10px;
+}
+
+section{
+  color: white;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.section1{
+  padding-top: 15px;
+}
+
+.arrow:before{
+  content: "\21A6"
+}
+
+h2{
+  display: inline-block;
+}
+
+.position.power{
+  font-size: 15px;
+}
+
+.icon1{
+  border-radius: 5px;
+  background-color: rgb(255, 195, 77);
+  padding: 15px;
+  width: 35%;
+}
+
+.icon2
+{
+  border-radius: 5px;
+  background-color: rgb(51, 204, 51);
+  padding: 15px;
+  width: 60%;
+}
+
+.icon3{
+  border-radius: 5px;
+  background-color: rgb(186, 67, 75);
+  padding: 15px;
+  width: 15%;
+}
